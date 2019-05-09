@@ -25,7 +25,7 @@ while True:
     
     print("--------Dados inseridos--------")
     while True:
-        op = input("Inserir novamente?(y\\n)")
+        op = input("Inserir novamente?(y\\n): ")
         if (op in ['y', 'Y', 'n', 'N']):
             break;
     if (op == "n" or op == "N"):

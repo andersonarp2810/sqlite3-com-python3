@@ -8,7 +8,7 @@ cursor = conn.cursor()
 
 while (True):
     print("-Consultar: Livros- 1: Todos - 2: Por id - 3: Por título - 4: Por autor - 5: Por editora - 0: Sair")
-    opcao = int(input())
+    opcao = int(input(": "))
     
     if (opcao == 0):
         break
